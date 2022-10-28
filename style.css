@@ -1,5 +1,5 @@
 h1, h2 {
-    color: #D4D4D2;
+    color: rgb(193, 130, 72);
 }
 
 h1 {
@@ -19,6 +19,7 @@ h1 {
 .box {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .input-area {
