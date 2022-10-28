@@ -1,9 +1,9 @@
 function calculate() {
 
-    let height = document.getElementById("height");
-    let weight = document.getElementById("weight");
+    let height = (document.getElementById("height").value) / 100;
+    let weight = document.getElementById("weight").value;
 
-    console.log(height);
-    console.log(weight);
+    const imc = weight / height ** 2;
+    console.log(imc);
 
 }
