@@ -42,3 +42,8 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+textarea {
+    width: 100%;
+    margin-top: 2em;
+}

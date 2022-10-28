@@ -5,28 +5,30 @@ function calculate() {
 
     const imc = weight / height ** 2;
 
+    let result ="";
+
     if (imc < 18.5) {
 
-        window.alert("Abaixo do peso.");
+        result = (`${imc}. Está abaixo do peso.`);
     } 
 
     if (imc > 18.5 && imc < 24.9) {
 
-        window.alert("Peso normal.");
+        result = (`${imc}. Está com o peso normal.`);
     } 
 
     if (imc > 25 && imc < 29) {
 
-        window.alert("Sobrepeso.");
+        result = (`${imc}. Está com sobrepeso.`);
     }
 
     if (imc > 30 && imc < 40) {
-        window.alert("Obesidade.")
+        result = (`${imc}. Está com obesidade.`);
     }
 
     if (imc > 40) {
-        window.alert("Obesidade grave.")
+        result = (`${imc}. Está com obesidade grave.`);
     }
+
+    document.getElementById("text-area").innerText=result;
 }
-
-
