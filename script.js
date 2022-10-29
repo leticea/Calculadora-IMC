@@ -5,8 +5,6 @@ function calculate() {
 
     const imc = weight / height ** 2;
 
-    let result = "";
-
     if (imc < 18.5) {
 
         result = (`IMC: ${imc}. Está abaixo do peso.`);
@@ -28,9 +26,9 @@ function calculate() {
     }
 
     if (imc > 40) {
-        
+
         result = (`IMC: ${imc}. Está com obesidade grave.`);
     }
 
-    document.getElementById("text-area").innerText=result;
+    document.getElementById("text-area").innerText = result;
 }

@@ -8,10 +8,10 @@
 <br>
 
 <p align="center">
-  <img alt="timer" src=".github/image.png">
+  <img alt="calculator" src=".github/image.png">
 </p>
 
-## Timer
+## Calculadora de IMC
 
 ## 🚀 Tecnologias
 
@@ -23,9 +23,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Aplicação com JavaScript de um Timer simples.
+Aplicação com JavaScript de uma calculadora de IMC.
 
-Aula do canal [Leo Ujo](https://www.youtube.com/watch?v=msyTjg3t4Z8)
+Aula do canal [Leo Ujo](https://www.youtube.com/watch?v=asrqxlo7Nfo&list=PL3gpLKlUOEE2B6A9Zp5VFpqTwUOdIHYjx&index=5)
 
 ## 🚀 Como Rodar
 
